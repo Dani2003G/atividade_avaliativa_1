@@ -8,6 +8,11 @@
     <p>Site em uma tela pequena</p>
 </h1>
 
+<h3 align="center">
+    <a href="https://github.com/Dani2003G/atividade_avaliativa_1" target="_blank">Acessar demonstração</a>
+</h3>
+
+
 ---
 
 ## 📋Sobre
