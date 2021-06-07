@@ -11,7 +11,7 @@
 ---
 
 ## 📋Sobre
-O projeto atividade avaliativa foi um projeto dado pela minha professora Cristiane Pires Camilo com o objetivo de treinarmos para a prova.
+A atividade avaliativa foi um projeto dado pela minha professora Cristiane Pires Camilo com o objetivo de treinarmos para a prova.
 
 ---
 
