@@ -1,0 +1,394 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+
+/* Barra de navegação */
+
+header {
+    background-color: #212529;
+    height: 100px;
+}
+
+nav {
+    width: 920px;
+    margin: 0 auto;
+}
+
+nav a img {
+    margin-top: 10px;
+    width: 300px;
+    height: 60px;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+}
+
+nav ul li {
+    float: left;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Conteudo */
+
+section.conteudo {
+    width: 920px;
+    margin: 20px auto;
+    background-color: white;
+}
+
+aside {
+    width: 190px;
+    padding-left: 10px;
+    float: left;
+}
+
+section.conteudo_principal {
+    width: 700px;
+    float: left;
+}
+
+
+/* Aside sobre nós */
+
+aside article.sobre-nos h4 {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+aside article.sobre-nos hr {
+    border: none;
+    height: 2px;
+    width: 190px;
+    margin: 0 auto;
+    background-color: grey;
+}
+
+aside article.sobre-nos p {
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+/* Aside categorias */ 
+
+aside article.categorias h4 {
+    padding-left: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+aside article.categorias hr {
+    border: none;
+    height: 2px;
+    width: 190px;
+    margin: 0 auto;
+    background-color: grey;
+}
+
+aside article.categorias ul {
+    font-size: 14px;
+}
+
+aside article.categorias ul li {
+    border-bottom: 1px solid grey;
+    padding: 5px;
+}
+
+/* Aside posts */
+
+aside article.posts h4 {
+    padding-left: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+aside article.posts hr {
+    border: none;
+    height: 2px;
+    width: 190px;
+    margin: 0 auto;
+    background-color: grey;
+}
+
+aside article.posts ul {
+    list-style: none;
+}
+
+aside article.posts ul li {
+    margin-bottom: 10px;
+    height: 50px;
+}
+
+aside article.posts ul li a div {
+    float: left;
+    margin-right: 10px;
+}
+
+aside article.posts ul li a div img {
+    width: 35px;
+    height: 35px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.moldura {
+    border: 1px solid grey;
+    width: 45px;
+    height: 45px;
+}
+
+aside article.posts ul li a p {
+    font-size: 10px;
+}
+
+p.por {
+    font-size: 10px;
+    color: grey;
+}
+
+/* Conteúdo principal */ 
+
+article.conteudos_cima {
+    margin-top: 60px;
+    margin-left: 20px;
+    width: 320px;
+    float: left;
+}
+
+article.conteudos_baixo {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 320px;
+    float: left;
+}
+
+hr.aparecer {
+    display: none;
+}
+
+h1.titulo {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+figure.principal {
+    margin-left: 5px;
+}
+
+img.principal {
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.moldura_principal {
+    border: 1px solid grey;
+    width: 290px;
+    height: 160px;
+}
+
+p.principal {
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+p.por2 {
+    font-size: 16px;
+    color: grey;
+}
+
+button {
+    padding: 10px 8px;
+    width: 100px;
+    color: white;
+    background-color: darkslategray;
+    border: 1px solid darkslategrey;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+/* cabeçalho */
+
+section.cabecalho {
+    background-color:  #212529;
+}
+
+section.cabecalho section.informacoes {
+    width: 920px;
+    margin: 0 auto;
+}
+
+section.cabecalho section.informacoes article {
+    width: 280px;
+    float: left;
+    margin-right: 15px;
+}
+
+section.cabecalho section.informacoes article h3 {
+    padding-top: 15px;
+    padding-left: 10px;
+    color: white;
+}
+
+section.cabecalho section.informacoes article hr {
+    border: 1px solid white;
+    height: 1px;
+    color: white;
+}
+
+section.cabecalho section.informacoes article p {
+    color: white;
+}
+
+/* footer */
+
+footer {
+    background-color: black;
+    padding: 15px;
+}
+
+footer section {
+ width: 920px;
+ margin: 0 auto;
+} 
+
+footer section article p {
+    color: white;
+    text-align: center;
+}
+
+/* Configurações responsíveis */
+
+@media screen and (max-width: 950px) {
+
+    /* header */
+    header {
+        background-color: #212529;
+        height: 120px;
+    }
+
+    /* nav */
+    nav ul {
+        float: none;
+        list-style: none;
+        margin-left: -40px;
+    }
+    
+
+    /* tamanho conteudos */
+    section.conteudo {
+        width: 700px;
+    }
+
+    /* Aside */
+    aside {
+        float: none;
+        margin: 0 auto;
+    }
+
+    /* Aside sobre nós */
+    aside article.sobre-nos {
+        display: none;
+    }
+
+    /* Aside categorias */
+    aside article.categorias h4 {
+        padding-left: 10px;
+        font-size: 18px;
+        padding-top: 25px;
+        margin-bottom: 10px;
+    }
+
+    /* Aside post */
+    aside article.posts {
+        display: none;
+    }
+
+    /* Conteudo principal */
+    section.conteudo_principal {
+        float: none;
+        margin: 0 auto;
+    }
+
+    article.conteudos_cima {
+        float: none;
+        margin: 0 auto;
+        width: 250px;
+    }
+
+    article.conteudos_baixo {
+        float: none;
+        margin: 0 auto;
+        width: 250px;
+    }
+
+    hr.aparecer {
+        display: block;
+    }
+
+    /* cabeçalho */
+    section.cabecalho section.informacoes {
+        width: 700px;
+        margin: 0 auto;
+    }
+
+    section.cabecalho section.informacoes article {
+        float: none;
+        margin: 0 auto;
+        padding-bottom: 10px;
+    }
+    
+    /* Footer */
+    footer section {
+        width: 700px;
+        margin: 0 auto;
+    } 
+}
+
+@media screen and (max-width: 720px) {
+
+    /* body */
+    body {
+        background-color: white;
+    }
+
+    /* tamanho conteudos */
+    section.conteudo {
+        width: 100%;
+    }
+
+    /* Comteúdo principal */
+    section.conteudo_principal {
+        width: 100%;
+    }
+
+    /* cabeçalho */
+    section.cabecalho section.informacoes {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    section.cabecalho section.informacoes article {
+        float: none;
+        margin: 0 auto;
+        padding-bottom: 10px;
+    }
+
+    /* Footer */
+    footer section {
+        width: 100%;
+        margin: 0 auto;
+    } 
+}
