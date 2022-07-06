@@ -8,11 +8,6 @@
     <p>Site em uma tela pequena</p>
 </h1>
 
-<h3 align="center">
-    <a href="https://portfoliodanielalmeida.000webhostapp.com/projetos/aplicacoes_para_internet/projeto1/" target="_blank">Acessar demonstração</a>
-</h3>
-
-
 ---
 
 ## 📋Sobre
